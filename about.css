@@ -7,61 +7,7 @@
 	box-sizing: border-box;
 	font-family: 'Nunito',sans-serif;
 }
-section
-{
 
-	position: relative;
-	width: 60%;
-	min-height: 100vh;
-	padding: 100px;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-}
-.Box{
-
- display: flex;
- transition: all .5s;
- cursor: pointer;
- position: relative;
-
-}
-.content-box{
-
-	background: linear-gradient(to right bottom, #005dad, #1469b7, #2374c0, #3080c9, #3c8cd2);
-	padding: 20px;
-	border-radius: 10px 0 0 0;
-
-}
-
-
-
-.content-box h2{
-
-	color: #fff;
-	position: relative;
-
-}
-.content-box h2::before{
-
-	content: "";
-	width: 50px;
-	height: 4px;
-	position: absolute;
-	bottom: 0;
-	background: #fff;
-	top: 34px;
-}
-.content-box p{
-
-	padding: 20px 0;
-	color: #fff;
-}
-.img-box img{
-
-	display: block;
-
-}
 .card-boxes{
 
 	display: flex;
