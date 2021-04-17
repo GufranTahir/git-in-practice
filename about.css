@@ -65,7 +65,7 @@ section
 .card-boxes{
 
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 .card-boxes .card-wrapper{
