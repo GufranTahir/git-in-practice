@@ -7,12 +7,124 @@
 	box-sizing: border-box;
 	font-family: 'Nunito',sans-serif;
 }
+.navigation{
+
+	max-width: 80vw;
+	/*background: red;*/
+	height: 50px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.right ul{
+
+	display: flex;
+
+}
+.right ul li{
+
+	list-style-type: none;
+	margin: 10px;
+}
+.right ul li a{
+
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+}
+.left{
+
+	padding: 20px;
+	color: #000;
+	font-size: 18px;
+}
+.content
+{
+
+	max-width: 80vw;
+    /*background:rgb(208,208,243);*/
+	height: 340px;
+	margin: auto;
+	display: flex;
+	margin-top: 12px;
+	justify-content: space-around;
+	padding: 9px;
+	background-image: url(images/backgr.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.left-content{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 50px 30px;
+		color: #fff;
+		
+}
+.right-img {
+
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    
+}
+.right-img img{
+
+	border: 2px solid black;
+	border-radius: 50%;
+}
+.hrline{
+
+	width: 80vw;
+	margin: auto;
+	margin-top: 10px;
+
+}
+.home-articles{
+
+ /*height: 455px;*/
+ background-color: rgba(248,239,239,0.5);
+ max-width: 80vw;
+ margin: auto;
+ margin-top: 20px;
+ padding: 23px;
+
+
+}
+.home-article-img img{
+
+width: 250px;
+	
+}
+.home-article {
+
+	display: flex;
+	margin:25px;
+}
+.home-article-content{
+
+	align-self: center;
+	padding: 0px 25px;
+}
+.home-article-content a{
+
+	text-decoration: none;
+	color: purple;
+}
 
 .card-boxes{
 
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+.card-boxes{
+
+	max-width: 80vw;
+	margin: auto;
 }
 .card-boxes .card-wrapper{
  position: relative;
@@ -41,7 +153,7 @@ text-align: center;
 	align-items: center;
 	font-size: 40px;
 	font-weight: 700;
-	transition: .1s;
+	transition: .2s;
 }
 .card-boxes .card-wrapper:nth-child(1) .card-icon{
 
@@ -51,6 +163,7 @@ text-align: center;
 .card-boxes .card-wrapper:nth-child(1):hover .card-icon{
 
 	box-shadow: 0 0 0 400px #e91e63;
+
 
 }
 
@@ -82,5 +195,17 @@ text-align: center;
 }
 .card-boxes .card-wrapper:hover .card-content{
 
+	color: #fff;
+}
+.footer{
+
+	max-width: 80vw;
+	background-color: red;
+	background: blue;
+	margin: auto;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	color: #fff;
 }
